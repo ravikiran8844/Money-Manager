@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.container {
+  padding: 40px;
+}
+
+.headerCard {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  border-radius: 30px;
+  padding: 30px;
+  background-size: cover;
+}
+span {
+  color: #0b69ff;
+  font-weight: 600;
+}
+.transactionContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.transaction {
+  border: 2px solid #cbd5e1;
+  border-radius: 20px;
+  width: 400px;
+  padding: 20px;
+}
+.transactionHistory {
+  border: 2px solid #cbd5e1;
+  border-radius: 20px;
+  width: 600px;
+  padding: 20px;
+}
+ul {
+  list-style: none;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #cbd5e1;
+
+  padding: 10px;
+}
+.delete {
+  width: 30px;
+}
+
+.textbold {
+  font-weight: 600;
+}
